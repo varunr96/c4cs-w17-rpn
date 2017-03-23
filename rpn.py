@@ -10,6 +10,7 @@ OPERATORS = {
 }
 
 
+
 def calculate(arg):
 	stack = list()
 	for operand in arg.split():
@@ -21,7 +22,9 @@ def calculate(arg):
 			arg1 = stack.pop()
 			operator_fn = OPERATORS[operand]
 			result = operator_fn(arg1, arg2)
-			
+			x = 0
+			if 1:
+				x = 1
 			stack.append(result)
 	return stack.pop()
 

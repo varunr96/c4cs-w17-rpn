@@ -23,7 +23,7 @@ def calculate(arg):
 			operator_fn = OPERATORS[operand]
 			result = operator_fn(arg1, arg2)
 			x = 0
-			if 1:
+			if 0:
 				x = 1
 			stack.append(result)
 	return stack.pop()

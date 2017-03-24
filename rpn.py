@@ -35,9 +35,9 @@ def calculate(arg):
 				operator_fn = OPERATORS[operand]
 				result = operator_fn(nums)
 
-			"""x = 0
+			x = 0
 			if x:
-				x = 1"""
+				x = 1
 			stack.append(result)
 	return stack.pop()
 
